@@ -118,6 +118,10 @@ module.exports = function(grunt) {
 					{
 						src: 'wp-config-sample.php',
 						dest: BUILD_DIR
+					},
+					{
+						src: 'composer.json',
+						dest: BUILD_DIR
 					}
 				]
 			},
